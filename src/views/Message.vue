@@ -44,7 +44,7 @@
 <script>
 import axios from 'axios'
 
-const API_URL = 'https://coldsewoo-aws-example.cf'
+const API_URL = 'http://ec2-13-209-103-194.ap-northeast-2.compute.amazonaws.com'
 
 
 export default {
