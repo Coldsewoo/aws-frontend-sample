@@ -1,15 +1,18 @@
-import 'vuetify/dist/vuetify.min.css'
-import 'es6-promise/auto'
-import Vue from 'vue'
-import Vuetify from 'vuetify'
-import App from './App'
-import router from './router'
-import store from './store'
+/* eslint-disable import/first */
 
-Vue.config.productionTip = false
-Vue.config.devtools = process.env.NODE_ENV === 'development';
+import 'vuetify/dist/vuetify.min.css';
+import 'es6-promise/auto';
+import Vue from 'vue';
+import Vuetify from 'vuetify';
 
-Vue.use(Vuetify)
+
+import App from './App';
+import router from './router';
+import store from './store';
+
+Vue.use(Vuetify);
+
+Vue.config.productionTip = true;
 
 /* eslint-disable no-new */
 new Vue({
@@ -17,4 +20,4 @@ new Vue({
   router,
   store,
   render: h => h(App),
-})
+});
